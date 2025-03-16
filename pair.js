@@ -116,7 +116,7 @@ router.get('/', async (req, res) => {
 *✅sᴇssɪᴏɴ ɪᴅ ɢᴇɴᴇʀᴀᴛᴇᴅ✅*
 ______________________________
 ╔════◇
-║『 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 𝐆𝐈𝐅𝐓𝐄𝐃 𝐌𝐃 』
+║『 𝐘𝐎𝐔'𝐕𝐄 𝐂𝐇𝐎𝐒𝐄𝐍 SNAPDRAGON 𝐌𝐃 』
 ║ You've Completed the First Step
 ║ to Deploy a Whatsapp Bot.
 ╚══════════════╝
@@ -125,10 +125,10 @@ ______________________________
 ║❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥: _youtube.com/@giftedtechnexus_
 ║❒ 𝐎𝐰𝐧𝐞𝐫: _https://t.me/mouricedevs_
 ║❒ 𝐑𝐞𝐩𝐨: _https://github.com/mouricedevs/giiftedmd_
-║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029VaYauR9ISTkHTj4xvi1l_
+║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vb6jFwj89ine3b7qHB1y_
 ║ 💜💜💜
 ╚══════════════╝ 
- 𝗚𝗜𝗙𝗧𝗘𝗗-𝗠𝗗 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 5.𝟬.𝟬
+ SNAPDRAGON-𝗠𝗗 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 5.𝟬.𝟬
 ______________________________
 
 Use your Session ID Above to Deploy your Bot.
@@ -142,7 +142,7 @@ Don't Forget To Give Star⭐ To My Repo`;
                     return removeFile('./temp/' + id);
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode !== 401) {
                     await delay(10000);
-                    GIFTED_PAIR_CODE();
+                    SNAPDRAGON_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -155,7 +155,7 @@ Don't Forget To Give Star⭐ To My Repo`;
         }
     }
 
-    await GIFTED_PAIR_CODE();
+    await SNAPDRAGON_PAIR_CODE();
 });
 
 module.exports = router;
