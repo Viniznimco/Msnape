@@ -1,5 +1,5 @@
 {
-  "description": "gifted-pair-code",
+  "description": "snapdragon-pair-code",
   "main": "./gifted.js",
   "type": "commonjs",
   "engines": {
@@ -10,7 +10,7 @@
     "stop": "pm2 stop gifted",
     "restart": "pm2 restart gifted"
   },
-  "author": "Gifted Tech",
+  "author": "Snapdragon Tech",
   "license": "GPL-3.0 license",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.6.7",
