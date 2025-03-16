@@ -121,10 +121,8 @@ ______________________________
 ║ to Deploy a Whatsapp Bot.
 ╚══════════════╝
 ╔═════◇
-║ 『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥: _youtube.com/@giftedtechnexus_
-║❒ 𝐎𝐰𝐧𝐞𝐫: _https://t.me/mouricedevs_
-║❒ 𝐑𝐞𝐩𝐨: _https://github.com/mouricedevs/giiftedmd_
+║❒ 𝐎𝐰𝐧𝐞𝐫: _https://t.me/_
+║❒ 𝐑𝐞𝐩𝐨: _https://github.com/_
 ║❒ 𝐖𝐚𝐂𝐡𝐚𝐧𝐧𝐞𝐥: _https://whatsapp.com/channel/0029Vb6jFwj89ine3b7qHB1y_
 ║ 💜💜💜
 ╚══════════════╝ 
