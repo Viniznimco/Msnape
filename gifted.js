@@ -15,7 +15,7 @@ app.listen(PORT, () => {
     console.log(`
 Deployment Successful!
 
- Gifted-Session-Server Running on http://localhost:` + PORT)
+ Snapdragon-Session-Server Running on http://localhost:` + PORT)
 })
 
 module.exports = app
