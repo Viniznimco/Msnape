@@ -1,4 +1,4 @@
-const { giftedid } = require('./id'); 
+const { snapdragonid } = require('./id'); 
 const express = require('express');
 const fs = require('fs');
 let router = express.Router();
@@ -6,7 +6,7 @@ const pino = require("pino");
 const { Storage } = require("megajs");
 
 const {
-    default: Gifted_Tech,
+    default: Snapdragon_Tech,
     useMultiFileAuthState,
     delay,
     makeCacheableSignalKeyStore,
@@ -112,7 +112,7 @@ router.get('/', async (req, res) => {
 
                     const session = await Gifted.sendMessage(Gifted.user.id, { text: sid });
 
-                    const GIFTED_TEXT = `
+                    const SNAPDRAGON_TEXT = `
 *✅sᴇssɪᴏɴ ɪᴅ ɢᴇɴᴇʀᴀᴛᴇᴅ✅*
 ______________________________
 ╔════◇
@@ -133,7 +133,7 @@ Use your Session ID Above to Deploy your Bot.
 Check on YouTube Channel for Deployment Procedure(Ensure you have Github Account and Billed Heroku Account First.)
 Don't Forget To Give Star⭐ To My Repo`;
 
-                    await Gifted.sendMessage(Gifted.user.id, { text: GIFTED_TEXT }, { quoted: session });
+                    await Gifted.sendMessage(Gifted.user.id, { text: SNAPDRAGON_TEXT }, { quoted: session });
 
                     await delay(100);
                     await Gifted.ws.close();
