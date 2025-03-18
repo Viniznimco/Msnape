@@ -1,10 +1,10 @@
 
 {
-    "name": "Gifted Session Generator",
+    "name": "Snapdragon Session Generator",
     "description": "Web Session Generator",
     "logo": "https://files.giftedtech.my.id/file/gifted-md.jpg",
     "repository": "https://github.com/mouricedevs/gifted-pair-code",
-    "keywords": ["Gifted-Tech"],
+    "keywords": ["Snapdragon-Tech"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
