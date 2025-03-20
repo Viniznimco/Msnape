@@ -1,27 +1,28 @@
 {
-  "description": "snapdragon-pair-code",
+  "description": "gifted-pair-code",
   "main": "./gifted.js",
   "type": "commonjs",
-  "engines": {
-    "node": ">=20.0.0"
-  },
-  "scripts": {
-    "start": "pm2 start gifted.js --deep-monitoring --attach --name gifted",
-    "stop": "pm2 stop gifted",
-    "restart": "pm2 restart gifted"
-  },
-  "author": "Snapdragon Tech",
+  "engines" : { 
+    "node" : ">=20.0.0"
+    },
+    "scripts": {
+      "start": "pm2 start gifted.js --deep-monitoring --attach --name gifted",
+      "stop": "pm2 stop gifted",
+     "restart": "pm2 restart gifted"
+    },
+  "author": "Gifted Tech",
   "license": "GPL-3.0 license",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.6.7",
+    "gifted-baileys": "^1.5.1",
+    "qrcode": "^1.5.3",
     "awesome-phonenumber": "^2.64.0",
+    "megajs": "^1.1.0",
+    "pino": "^8.1.0",
+    "path": "^0.12.7",
+    "phone" : "3.1.30",
     "body-parser": "^1.20.1",
     "express": "^4.18.1",
-    "megajs": "^1.1.0",
     "path": "^0.12.7",
-    "phone": "3.1.30",
-    "pino": "^8.1.0",
-    "pm2": "^5.2.0",
-    "qrcode": "^1.5.3"
-  }
+    "pm2": "^5.2.0"
+   }
 }
