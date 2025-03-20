@@ -2,7 +2,7 @@
 # Gifted-Session-Generator
 - Fork, Star and Edit as you wish
 - Deploy to your favourite hosting server eg Heroku or Render or self hosting
-- This is what I use in my **[Session Site](https://pair1.giftedtech.my.id)** so don't ask for more...
+- This is what I use in my **[Session Site]** so don't ask for more...
 
 <strong>NB:<strong/> This repo also generates session ID for all bots using gifted-baileys/whiskeysockets/baileys but with ***megajs***
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
